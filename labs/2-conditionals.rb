@@ -51,3 +51,4 @@ puts "The Point is #{total}"
 # otherwise, anyling else
 # puts "The Point IS {total}""
 end 
+
