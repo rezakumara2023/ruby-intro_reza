@@ -2,6 +2,7 @@
 # is the same as where this file is located and then run:
 # ruby 1-data.rb
 
+
 # EXERCISE
 # Play craps (roll two dice)
 # When executed, this program should print out two random
@@ -9,6 +10,16 @@
 # dice. Set two variables, with names that make sense,
 # then write them out to the screen. Show the total
 # as well.
+
+die_roll1 = puts rand(1..6)
+puts die_roll1
+
+die_roll2 = rand(1..6)
+puts die_roll2
+
+#error here
+total = die_roll1 - die_roll2
+puts "Total: #{total}"
 
 # HINTS
 # Get a random number between 1 and 6 by doing:
